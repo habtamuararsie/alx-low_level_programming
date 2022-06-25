@@ -1,6 +1,8 @@
 #!/bin/bash
 #include "main.h"
-
+/**
+* This is comment by me;
+*/
 int main ( )
 {
 int _putchar(char c);
