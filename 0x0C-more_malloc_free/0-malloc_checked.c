@@ -3,17 +3,25 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - creates an array of integers.
- * @b: input.
- * Return: Output.
- */
+**malloc_checked - allocate memory using malloc
+*
+*@b: unsigned int
+*
+*Return: the pointer
+**/
+
 void *malloc_checked(unsigned int b)
 {
-	void *g = malloc(b);
+	int *n;
 
-	if (g == NULL)
+	n = malloc(b);
+
+	if (!n)
 	{
+		free(n);
 		exit(98);
 	}
-	return (g);
+
+	return (n);
+
 }
