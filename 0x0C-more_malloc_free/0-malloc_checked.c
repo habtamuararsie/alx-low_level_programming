@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - creates an array of integers.
- * @b: input.
- * Return: Output.
- */
+* malloc_checked - creates an array of integers.
+* @b: input.
+* Return: Output.
+*/
 
 void *malloc_checked (unsigned int b)
 {
