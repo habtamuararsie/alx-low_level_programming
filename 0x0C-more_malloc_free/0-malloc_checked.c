@@ -1,11 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/**
- * malloc_checked - creates an array of integers.
- * @b: input.
- * Retun: output.
- */
+#include <limits.h>
+
 void *malloc_checked(unsigned int b)
 {
 	void *h = malloc(b);
