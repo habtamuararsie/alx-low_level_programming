@@ -6,7 +6,7 @@
  * @b: input.
  * Retun: output.
  */
-void *malloc_checked(unsinged int b)
+void *malloc_checked(unsigned int b)
 {
 	void *h = malloc(b);
 	if (h == NULL)
