@@ -1,18 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdff.h>
 /**
  * malloc_checked - creates an array of integers.
  * @b: input.
- * Return: Output.
+ * Retun: output.
  */
-void *malloc_checked(unsigned int b)
+void *malloc_checked(unsinged int b)
 {
-	void *g = malloc(b);
-
-	if (g == NULL)
+	void *h = malloc(b);
+	if (h == NULL)
 	{
 		exit(98);
 	}
-	return (g);
+	return (h);
 }
